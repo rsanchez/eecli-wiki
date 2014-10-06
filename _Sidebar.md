@@ -1,6 +1,7 @@
 ### Getting Started
 
 * [[Installation]]
+* [[Configuration]]
 
 ### Command Reference
 
