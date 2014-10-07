@@ -1,0 +1,1 @@
+If you use [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), you can install the [eecli Zsh autocompletion plugin](https://github.com/rsanchez/eecli/tree/zsh-plugin).

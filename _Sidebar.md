@@ -59,3 +59,9 @@
 #### Update
 * [[update:addons]]
 
+### Advanced Topics
+
+* [[Custom Commands]]
+* [[Third Party Commands]]
+* [[Zsh Autocompletion]]
+
