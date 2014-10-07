@@ -7,15 +7,23 @@ eecli is a command line interface for ExpressionEngine. You can use this:
 * to debug using an interactive shell
 
 ```
-eecli clear:cache:ee
+> eecli clear:cache:ee
 
-eecli create:template site/about
+  EE cache cleared.
 
-eecli generate:addon
+> eecli create:template site/about
 
-eecli db:dump
+  Template site/about created.
 
-eecli your_custom_command
+> eecli generate:addon
+
+  Addon your_addon_name created.
+
+> eecli db:dump
+
+  your_site-201401011200.sql created.
+
+> eecli your_custom_command
 ```
 
 To learn more, please see the categories to the right.
