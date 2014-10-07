@@ -1,4 +1,4 @@
-eecli is a command line interface for ExpressionEngine. You can use this:
+`eecli` is a command line interface for ExpressionEngine. You can use this:
 
 * to aid during local development, like creating new channels or generating a custom addon.
 * on your server to run post-deployment tasks like clearing cache.
