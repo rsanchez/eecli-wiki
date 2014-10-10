@@ -33,6 +33,7 @@
 * [[db:dump]]
 
 #### Delete
+* [[delete:entry]]
 * [[delete:global_variable]]
 * [[delete:snippet]]
 * [[delete:template]]

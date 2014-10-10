@@ -1,10 +1,10 @@
-`eecli` is a command line interface for ExpressionEngine. You can use this:
+`eecli` is a command line interface for ExpressionEngine. It can be used to:
 
-* to aid during local development, like creating new channels or generating a custom addon.
-* on your server to run post-deployment tasks like clearing cache.
-* to automate critical tasks, like database backup
-* to build your own custom CLI commands, like import scripts or cron jobs
-* to debug using an interactive shell
+* aid in development, like creating new channels or generating a custom addon.
+* run post-deployment tasks on your staging/production server(s), like clearing cache.
+* automate critical tasks, like database backup
+* build your own custom CLI commands, like import scripts or cron jobs
+* debug using an interactive shell
 
 ```
 > eecli clear:cache:ee
