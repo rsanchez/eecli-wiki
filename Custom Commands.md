@@ -1,8 +1,13 @@
 eecli custom commands are [Laravel Console](http://laravel.com/docs/commands#building-a-command) Command objects, which extend [Symfony Console](http://symfony.com/doc/current/components/console/introduction.html) Command objects. You can add custom commands to your `.eecli.php` config file by adding the class name to the 'commands' array.
 
-You can generate a custom command file using the `eecli generate:command` command.
+Custom commands are great for cron jobs and/or post-deployment tasks.
 
-If your command does not require that EE be bootstrapped to run, you should simply implement the `eecli\Command\Contracts\ExemptFromBootstrap` interface, which has no additional methods.
+```
+# import currency conversion rates nightly
+0 0 * * * /var/www/vendor/bin/eecli import_conversion_rates --http_host="yoursite.com"
+```
+
+Your custom command must extend `Illuminate\Console\Command`. You can generate a custom command file using the [[generate:command]] command.
 
 Here is a simple example custom command (it is assumed your custom command classes are in your autoloader):
 
@@ -35,7 +40,7 @@ And your configuration would be:
 ),
 ```
 
-Then you could run this do remove banned members, in a cron job for instance.
+Then you could run your command:
 
 ```
 eecli remove_banned_members
