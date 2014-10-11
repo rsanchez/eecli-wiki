@@ -22,6 +22,7 @@
 * [[create:category]]
 * [[create:category_group]]
 * [[create:channel]]
+* [[create:field_group]]
 * [[create:global_variable]]
 * [[create:member]]
 * [[create:member_group]]
