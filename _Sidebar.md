@@ -2,6 +2,7 @@
 
 * [[Installation]]
 * [[Configuration]]
+* [[Global Options]]
 
 ### Command Reference
 

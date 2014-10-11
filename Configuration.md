@@ -2,9 +2,7 @@ Run `eecli init` to create a `.eecli.php` config file in the current working dir
 
 Open `.eecli.php` and follow the instructions found in the file's comments to configure your EE setup.
 
-If your system folder is the default `system` and is in the current working directory, you *may* not need a config file.
-
-You will receive a warning message if your system folder cannot be found.
+You will receive a warning message if your system folder cannot be found automatically.
 
 ```php
 <?php
@@ -46,14 +44,14 @@ return array(
      *
      * You can also set these at the command line:
      *
-     * HTTP_HOST="foo.dev" eecli update:addons
+     * eecli update:addons --http_host="site.dev"
      */
     'server' => array(
-        'HTTP_HOST' => getenv('HTTP_HOST') ?: 'localhost',
-        'DOCUMENT_ROOT' => getenv('DOCUMENT_ROOT') ?: __DIR__,
-        'REQUEST_URI' => getenv('REQUEST_URI') ?: '/',
-        'REMOTE_ADDR' => getenv('REMOTE_ADDR') ?: '127.0.0.1',
-        'HTTP_USER_AGENT' => getenv('HTTP_USER_AGENT') ?: 'eecli',
+        'HTTP_HOST' => 'localhost',
+        'DOCUMENT_ROOT' => __DIR__,
+        'REQUEST_URI' => '/',
+        'REMOTE_ADDR' => '127.0.0.1',
+        'HTTP_USER_AGENT' => 'eecli',
     ),
 
     /**
