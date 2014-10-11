@@ -20,6 +20,7 @@
 
 #### Create
 * [[create:category]]
+* [[create:category_group]]
 * [[create:channel]]
 * [[create:global_variable]]
 * [[create:member]]
