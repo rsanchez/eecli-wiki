@@ -21,7 +21,7 @@ Composer libraries can add custom commands to eecli by using the `file` autoload
 ```js
 "autoload": {
     "psr-4": { "YourNamespace\\": "src/" },
-    "files": { "src/register.php" }
+    "files": ["src/register.php"]
 }
 ```
 
@@ -44,3 +44,5 @@ Application::registerGlobalCommand(function () {
     return new \YourNamespace\BarCommand();
 });
 ```
+
+See the (Cowsay)[https://github.com/rsanchez/eecli-cowsay] repo as an example of a third party command.
