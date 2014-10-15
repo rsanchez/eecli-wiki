@@ -4,7 +4,7 @@ This error usually means that eecli cannot connect to your database. This can ha
 
 ### You are using a multi-environment config bootstrap
 
-A common scenario is to have EE config.php and database.php set up to work on multiple environments. Typically you will check HTTP_HOST and use different database credentials depending on your environment. It might look something like this:
+A common scenario is to have EE `config.php` and `database.php` set up to work on multiple environments. Typically you will check `HTTP_HOST` and use different database credentials depending on your environment. It might look something like this:
 
 ```php
 switch($_SERVER['HTTP_HOST'])
@@ -22,7 +22,7 @@ switch($_SERVER['HTTP_HOST'])
 }
 ```
 
-When you run PHP from the command line, there is no HTTP_HOST. To get around this, eecli "spoofs" the HTTP_HOST value, based on what is found in your .eecli.php config file. You may also set HTTP_HOST at run time with the --http_host option. Let's say I was using the configuration above, and I wanted to run eecli locally. I could set my .eecli.php config to this:
+When you run PHP from the command line, there is no `HTTP_HOST`. To get around this, `eecli` "spoofs" the `HTTP_HOST` value, based on what is found in your `.eecli.php` config file. You may also set `HTTP_HOST` at run time with the `--http_host` option. Let's say I was using the configuration above, and I wanted to run `eecli` locally. I could set my `.eecli.php` config to this:
 
 ```php
 'server' => array(
@@ -30,7 +30,7 @@ When you run PHP from the command line, there is no HTTP_HOST. To get around thi
 );
 ```
 
-Or I could run eecli with the --http_host option:
+Or I could run `eecli` with the --http_host option:
 
 ```
 eecli some:command --http_host="yoursite.dev"
