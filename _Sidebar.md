@@ -65,6 +65,7 @@
 
 ### Advanced Topics
 
+* [[Troubleshooting]]
 * [[Custom Commands]]
 * [[Third Party Commands]]
 * [[Zsh Autocompletion]]
