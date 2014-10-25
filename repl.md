@@ -1,5 +1,6 @@
-Starts an interactive shell.
+Start an interactive shell.
 
 ```
 eecli repl
 ```
+

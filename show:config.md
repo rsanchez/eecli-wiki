@@ -1,9 +1,25 @@
 Show config items.
 
 ```
-# Show all config items in a table
-eecli show:config
+eecli show:config <key>
+```
 
-# Show the specified config item
-eecil show:config <key>
+## Arguments
+
+### `key`
+
+Optional. Which config item do you want to show? (Leave blank to show all)
+
+## Examples
+
+Show all config items
+
+```
+eecli show:config
+```
+
+Show the specified config item
+
+```
+eecli show:config site_label
 ```

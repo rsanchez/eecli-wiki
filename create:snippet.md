@@ -1,17 +1,51 @@
-Create a new snippet.
+Create a new snippet. When you have [Sync Snippets](https://github.com/rsanchez/sync_snippets) installed and configured, this command will write a snippet file as well.
 
 ```
-# create a blank snippet
+eecli create:snippet <name> <contents>
+```
+
+## Arguments
+
+### `name`
+
+Name of snippet.
+
+### `contents`
+
+Optional. Content of snippet.
+
+## Options
+
+### `--global`
+
+Create a global snippet.
+
+### `--stdin`
+
+Use stdin as snippet contents.
+
+## Examples
+
+Create a blank snippet
+
+```
 eecli create:snippet your_snippet_name
+```
 
-# create a snippet with content
+Create a snippet with content
+
+```
 eecli create:snippet your_snippet_name "your snippet content"
+```
 
-# pipe in content
-echo "your snippet content" | eecli create:snippet --stdin your_snippet_name
+Pipe in content
 
-# create a snippet accessible to all sites
+```
+eecli create:snippet --stdin your_snippet_name
+```
+
+Create a snippet accessible to all sites
+
+```
 eecli create:snippet --global your_snippet_name
 ```
-
-When you have [Sync Snippets](https://github.com/rsanchez/sync_snippets) installed and configured, this command will write a snippet file as well.

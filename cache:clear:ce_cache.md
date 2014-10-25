@@ -1,15 +1,53 @@
-Clears CE Cache.
+Clears the CE Cache.
 
 ```
-# clear all CE Cache drivers
+eecli cache:clear:ce_cache <items>
+```
+
+## Arguments
+
+### `items`
+
+Optional. Which items do you wish to clear? (Leave blank to clear all)
+
+## Options
+
+### `--tags`
+
+Whether to delete by tag.
+
+### `--driver="file"`
+
+Which driver to clear.
+
+## Examples
+
+Clear all caches
+
+```
 eecli cache:clear:ce_cache
+```
 
-# clear specific CE Cache items
-eecli cache:clear:ce_cache local/blog/detail/foo local/blog/detail/bar
+Clear a specific item
 
-# clear specific CE Cache tags
+```
+eecli cache:clear:ce_cache local/foo/item
+```
+
+Clear specific items
+
+```
+eecli cache:clear:ce_cache local/foo/item local/bar/item
+```
+
+Clear specific tags
+
+```
 eecli cache:clear:ce_cache --tags foo bar
+```
 
-# clear specific CE Cache drivers
-eecli cache:clear:ce_cache --driver=file --driver=redis foo bar
+Clear specific driver
+
+```
+eecli cache:clear:ce_cache --driver="file"
 ```

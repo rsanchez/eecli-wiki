@@ -1,6 +1,19 @@
-Creates a field group. The first argument is a field group name.
+Create a field group.
 
 ```
-# create a field group
+eecli create:field_group <name>
+```
+
+## Arguments
+
+### `name`
+
+The name of the field group.
+
+## Examples
+
+Create a field group
+
+```
 eecli create:field_group Blog
 ```
