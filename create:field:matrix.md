@@ -42,7 +42,7 @@ Set this field's order.
 
 ### `--min_rows="0"`
 
-What is the minimum number of rows?
+What is the minimum number of rows? Default: 0.
 
 ### `--max_rows="3"`
 

@@ -56,7 +56,7 @@ Show formatting dropdown on publish page.
 
 ltr or rtl. Default: ltr.
 
-### `--content_type=""`
+### `--content_type="all"`
 
 all, numeric, integer, or decimal.
 
