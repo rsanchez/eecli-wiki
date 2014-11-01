@@ -1,7 +1,7 @@
 Create a Fieldpack Radio Buttons field.
 
 ```
-eecli create:field:fieldpack_radio_buttons <label> <short_name> <group_id>
+$ eecli create:field:fieldpack_radio_buttons <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -49,11 +49,11 @@ One or more options. --option="Option Label" --option="option_value : Option Lab
 Create a Fieldpack Radio Buttons field in field group 1
 
 ```
-eecli create:field:fieldpack_radio_buttons "Your Field Name" your_field_name 1
+$ eecli create:field:fieldpack_radio_buttons "Your Field Name" your_field_name 1
 ```
 
 Create a Fieldpack Radio Buttons field with multiple options
 
 ```
-eecli create:field:fieldpack_radio_buttons --option="foo : Foo" --option="bar : Bar" "Name" name 1
+$ eecli create:field:fieldpack_radio_buttons --option="foo : Foo" --option="bar : Bar" "Name" name 1
 ```

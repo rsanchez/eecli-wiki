@@ -1,7 +1,7 @@
 Generate the official EE .htaccess file (as found in the [EE documentation](https://ellislab.com/expressionengine/user-guide/urls/remove_index.php.html)).
 
 ```
-eecli generate:htaccess <path>
+$ eecli generate:htaccess <path>
 ```
 
 ## Arguments
@@ -15,5 +15,5 @@ Optional. Where to create the .htaccess file.
 Generate .htaccess in the current directory
 
 ```
-eecli generate:htaccess
+$ eecli generate:htaccess
 ```

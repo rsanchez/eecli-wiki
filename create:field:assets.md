@@ -1,7 +1,7 @@
 Create an Assets field.
 
 ```
-eecli create:field:assets <label> <short_name> <group_id>
+$ eecli create:field:assets <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -65,23 +65,23 @@ Allow multiple selections.
 Create an Assets field in field group 1
 
 ```
-eecli create:field:assets "Your Field Name" your_field_name 1
+$ eecli create:field:assets "Your Field Name" your_field_name 1
 ```
 
 Create an Assets field that uploads to EE directory 1
 
 ```
-eecli create:field:assets --upload_dir="ee:1" "Your Field Name" your_field_name 1
+$ eecli create:field:assets --upload_dir="ee:1" "Your Field Name" your_field_name 1
 ```
 
 Create an Assets field that uploads to S3 directory 2
 
 ```
-eecli create:field:assets --upload_dir="s3:2" "Your Field Name" your_field_name 1
+$ eecli create:field:assets --upload_dir="s3:2" "Your Field Name" your_field_name 1
 ```
 
 Create an Assets field that allows multiple selections
 
 ```
-eecli create:field:assets --multiple "Your Field Name" your_field_name 1
+$ eecli create:field:assets --multiple "Your Field Name" your_field_name 1
 ```

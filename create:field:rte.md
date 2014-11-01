@@ -1,7 +1,7 @@
 Create a Textarea (Rich) field.
 
 ```
-eecli create:field:rte <label> <short_name> <group_id>
+$ eecli create:field:rte <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -53,5 +53,5 @@ ltr or rtl. Default: ltr.
 Create an RTE field in field group 1
 
 ```
-eecli create:field:rte "Your Field Name" your_field_name 1
+$ eecli create:field:rte "Your Field Name" your_field_name 1
 ```

@@ -1,7 +1,7 @@
 Create a Matrix field.
 
 ```
-eecli create:field:matrix <label> <short_name> <group_id>
+$ eecli create:field:matrix <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -53,11 +53,11 @@ What is the maximum number of rows?
 Create a Matrix field in field group 1
 
 ```
-eecli create:field:matrix "Your Field Name" your_field_name 1
+$ eecli create:field:matrix "Your Field Name" your_field_name 1
 ```
 
 Create a Matrix field with max and min rows
 
 ```
-eecli create:field:matrix --min_rows="1" --max_rows="3" "Name" name 1
+$ eecli create:field:matrix --min_rows="1" --max_rows="3" "Name" name 1
 ```

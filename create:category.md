@@ -1,7 +1,7 @@
 Create a category.
 
 ```
-eecli create:category <name> <category_group>
+$ eecli create:category <name> <category_group>
 ```
 
 ## Arguments
@@ -33,35 +33,35 @@ The ID of the parent category.
 Create a category in the specfied group (by ID)
 
 ```
-eecli create:category "16th Century" 1
+$ eecli create:category "16th Century" 1
 ```
 
 Create a category in the specified group (by name)
 
 ```
-eecli create:category Prehistoric "Time Periods"
+$ eecli create:category Prehistoric "Time Periods"
 ```
 
 Create a category with a custom url title
 
 ```
-eecli create:category --url_title="16th" "16th Century" 1
+$ eecli create:category --url_title="16th" "16th Century" 1
 ```
 
 Create a category with the specified parent_id
 
 ```
-eecli create:category --parent_id=12 "1920s" 1
+$ eecli create:category --parent_id=12 "1920s" 1
 ```
 
 Create a category with the specified description
 
 ```
-eecli create:category --description="The Roaring 20s" "1920s" 1
+$ eecli create:category --description="The Roaring 20s" "1920s" 1
 ```
 
 Create a category with one (or more) custom category fields
 
 ```
-eecli create:category --your_category_field="The Roaring 20s" "1920s" 1
+$ eecli create:category --your_category_field="The Roaring 20s" "1920s" 1
 ```

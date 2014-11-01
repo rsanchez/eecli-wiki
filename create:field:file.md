@@ -1,7 +1,7 @@
 Create a File field.
 
 ```
-eecli create:field:file <label> <short_name> <group_id>
+$ eecli create:field:file <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -61,17 +61,17 @@ How many existing files to show in a Channel Form? Default: 50.
 Create a File field in field group 1
 
 ```
-eecli create:field:file "Your Field Name" your_field_name 1
+$ eecli create:field:file "Your Field Name" your_field_name 1
 ```
 
 Create a File field that uploads to directory 1
 
 ```
-eecli create:field:file --upload_dir=1 "Your Field Name" your_field_name 1
+$ eecli create:field:file --upload_dir=1 "Your Field Name" your_field_name 1
 ```
 
 Create a File field that only allows images
 
 ```
-eecli create:field:file --content_type=image "Your Field Name" your_field_name 1
+$ eecli create:field:file --content_type=image "Your Field Name" your_field_name 1
 ```

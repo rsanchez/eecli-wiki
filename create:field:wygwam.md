@@ -1,7 +1,7 @@
 Create a Wygwam field.
 
 ```
-eecli create:field:wygwam <label> <short_name> <group_id>
+$ eecli create:field:wygwam <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -53,17 +53,17 @@ Defer initialization?
 Create a Wygwam field in field group 1
 
 ```
-eecli create:field:wygwam "Your Field Name" your_field_name 1
+$ eecli create:field:wygwam "Your Field Name" your_field_name 1
 ```
 
 Create a Wygwam field with Wygwam configuration 1
 
 ```
-eecli create:field:wygwam --config=1 "Name" name 1
+$ eecli create:field:wygwam --config=1 "Name" name 1
 ```
 
 Create a Wygwam field with deferred initialization
 
 ```
-eecli create:field:wygwam --defer "Name" name 1
+$ eecli create:field:wygwam --defer "Name" name 1
 ```

@@ -4,7 +4,7 @@ Custom commands are great for cron jobs and/or post-deployment tasks.
 
 ```
 # import currency conversion rates nightly
-0 0 * * * /var/www/vendor/bin/eecli import_conversion_rates --http_host="yoursite.com"
+0 0 * * * cd /var/www && vendor/bin/eecli import_conversion_rates --http_host="yoursite.com"
 ```
 
 Your custom command must extend `Illuminate\Console\Command`. You can generate a custom command file using the [[generate:command]] command.

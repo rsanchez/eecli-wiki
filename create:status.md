@@ -1,7 +1,7 @@
 Create a status.
 
 ```
-eecli create:status <status> <status_group>
+$ eecli create:status <status> <status_group>
 ```
 
 ## Arguments
@@ -25,17 +25,17 @@ The color of the status.
 Create a status in the specfied group (by ID)
 
 ```
-eecli create:status featured 1
+$ eecli create:status featured 1
 ```
 
 Create a status in the specified group (by name)
 
 ```
-eecli create:status draft your_group_name
+$ eecli create:status draft your_group_name
 ```
 
 Create a status with a red color
 
 ```
-eecli create:status --color="FF0000" featured 1
+$ eecli create:status --color="FF0000" featured 1
 ```

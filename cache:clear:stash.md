@@ -1,7 +1,7 @@
 Clears the Stash database cache.
 
 ```
-eecli cache:clear:stash
+$ eecli cache:clear:stash
 ```
 
 
@@ -11,5 +11,5 @@ eecli cache:clear:stash
 Clear all caches
 
 ```
-eecli cache:clear:stash
+$ eecli cache:clear:stash
 ```

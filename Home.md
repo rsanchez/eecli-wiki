@@ -7,23 +7,23 @@
 * debug using an interactive shell
 
 ```
-> eecli clear:cache:ee
+$ eecli clear:cache:ee
 
   EE cache cleared.
 
-> eecli create:template site/about
+$ eecli create:template site/about
 
   Template site/about created.
 
-> eecli generate:addon
+$ eecli generate:addon
 
   Addon your_addon_name created.
 
-> eecli db:dump
+$ eecli db:dump
 
   your_site-201401011200.sql created.
 
-> eecli your_custom_command
+$ eecli your_custom_command
 ```
 
 To learn more, please see the categories to the right.

@@ -1,6 +1,6 @@
 Start an interactive shell.
 
 ```
-eecli repl
+$ eecli repl
 ```
 

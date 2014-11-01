@@ -2,22 +2,38 @@ You may use the following options on all commands. These options correspond to t
 
 These options are here so that you can use eecli without necessarily having a config file. These are also helpful when running your site and `eecli` on multiple environments.
 
+Set your system path
+
 ```
-# set your system path
-eecli some:command --system_path="/var/www/admin"
+$ eecli some:command --system_path="/var/www/admin"
+```
 
-# override $_SERVER['HTTP_HOST']
-eecli some:command --http_host="staging.yoursite.com"
+Override `$_SERVER['HTTP_HOST']`
 
-# override $_SERVER['DOCUMENT_ROOT']
-eecli some:command --document_root="/var/www/html"
+```
+$ eecli some:command --http_host="staging.yoursite.com"
+```
 
-# override $_SERVER['REQUEST_URI']
-eecli some:command --request_uri="/"
+Override `$_SERVER['DOCUMENT_ROOT']`
 
-# override $_SERVER['DOCUMENT_ROOT']
-eecli some:command --remote_addr="192.168.0.1"
+```
+$ eecli some:command --document_root="/var/www/html"
+```
 
-# override $_SERVER['USER_AGENT']
-eecli some:command --document_root="/var/www/html"
+Override `$_SERVER['REQUEST_URI']`
+
+```
+$ eecli some:command --request_uri="/"
+```
+
+Override `$_SERVER['REMOTE_ADDR']`
+
+```
+$ eecli some:command --remote_addr="192.168.0.1"
+```
+
+Override `$_SERVER['HTTP_USER_AGENT']`
+
+```
+$ eecli some:command --user_agent="/var/www/html"
 ```

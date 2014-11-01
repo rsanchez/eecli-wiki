@@ -1,7 +1,7 @@
 Create a Date field.
 
 ```
-eecli create:field:date <label> <short_name> <group_id>
+$ eecli create:field:date <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -45,5 +45,5 @@ Set this field's order.
 Create a Date field in field group 1
 
 ```
-eecli create:field:date "Your Field Name" your_field_name 1
+$ eecli create:field:date "Your Field Name" your_field_name 1
 ```

@@ -1,7 +1,7 @@
 Create a member group.
 
 ```
-eecli create:member_group <name>
+$ eecli create:member_group <name>
 ```
 
 ## Arguments
@@ -161,23 +161,23 @@ The member group description.
 Create a member group with default preferences
 
 ```
-eecli create:member_group your_group_name
+$ eecli create:member_group your_group_name
 ```
 
 Create a member group using another group's preferences
 
 ```
-eecli create:member_group --clone=1 your_group_name
+$ eecli create:member_group --clone=1 your_group_name
 ```
 
 Create a member group and with the specified preferences
 
 ```
-eecli create:member_group --can_access_cp=y --can_access_content=y your_group_name
+$ eecli create:member_group --can_access_cp=y --can_access_content=y your_group_name
 ```
 
 Show all possible preference options
 
 ```
-eecli create:member_group create:member_group
+$ eecli create:member_group create:member_group
 ```

@@ -1,7 +1,7 @@
 Generate a custom command.
 
 ```
-eecli generate:command <command_name> <path>
+$ eecli generate:command <command_name> <path>
 ```
 
 ## Arguments
@@ -37,29 +37,29 @@ Whether the command has options.
 Generate a file called YourCustomCommand in the current directory
 
 ```
-eecli generate:command your:custom_comand
+$ eecli generate:command your:custom_comand
 ```
 
 Generate in the specified directory
 
 ```
-eecli generate:command your:custom_comand ./commands/
+$ eecli generate:command your:custom_comand ./commands/
 ```
 
 Generate with a namespace
 
 ```
-eecli generate:command --namespace="YourSite\Command" your:custom_comand ./src/YourSite/Command/
+$ eecli generate:command --namespace="YourSite\Command" your:custom_comand ./src/YourSite/Command/
 ```
 
 Generate with arguments and options
 
 ```
-eecli generate:command --options --arguments your_command
+$ eecli generate:command --options --arguments your_command
 ```
 
 Generate with a description
 
 ```
-eecli generate:command --description="Clear custom cache" cache:clear:custom
+$ eecli generate:command --description="Clear custom cache" cache:clear:custom
 ```

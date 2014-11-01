@@ -1,7 +1,7 @@
 Create a category group.
 
 ```
-eecli create:category_group <name>
+$ eecli create:category_group <name>
 ```
 
 ## Arguments
@@ -15,5 +15,5 @@ The name of the category group.
 Create a category group
 
 ```
-eecli create:category_group "Art and Science"
+$ eecli create:category_group "Art and Science"
 ```

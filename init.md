@@ -1,6 +1,6 @@
 Creates a default configuration file.
 
 ```
-eecli init
+$ eecli init
 ```
 

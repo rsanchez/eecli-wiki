@@ -1,7 +1,7 @@
 Create a new template group. This will also create an index template in the new group(s).
 
 ```
-eecli create:template_group <name>
+$ eecli create:template_group <name>
 ```
 
 ## Arguments
@@ -21,17 +21,17 @@ Set as site default.
 Create a template
 
 ```
-eecli create:template_group site
+$ eecli create:template_group site
 ```
 
 Multiple groups
 
 ```
-eecli create:template_group site news blog
+$ eecli create:template_group site news blog
 ```
 
 Create the default group
 
 ```
-eecli create:template_group --default site
+$ eecli create:template_group --default site
 ```

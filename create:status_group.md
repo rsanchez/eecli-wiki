@@ -1,7 +1,7 @@
 Create a status group.
 
 ```
-eecli create:status_group <name>
+$ eecli create:status_group <name>
 ```
 
 ## Arguments
@@ -15,5 +15,5 @@ Optional. The name of the status group
 Create a status group
 
 ```
-eecli create:status_group your_group_name
+$ eecli create:status_group your_group_name
 ```

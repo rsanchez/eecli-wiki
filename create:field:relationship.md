@@ -1,7 +1,7 @@
 Create a Relationships field.
 
 ```
-eecli create:field:relationship <label> <short_name> <group_id>
+$ eecli create:field:relationship <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -89,23 +89,23 @@ Allow multiple relationships?
 Create a Relationships field in field group 1
 
 ```
-eecli create:field:relationship "Your Field Name" your_field_name 1
+$ eecli create:field:relationship "Your Field Name" your_field_name 1
 ```
 
 Create a Relationships field with multiple channels
 
 ```
-eecli create:field:relationship --channel=1 --channel=2 "Your Field Name" your_field_name 1
+$ eecli create:field:relationship --channel=1 --channel=2 "Your Field Name" your_field_name 1
 ```
 
 Create a Relationships field with multiple statuses
 
 ```
-eecli create:field:relationship --status=closed --status=open "Your Field Name" your_field_name 1
+$ eecli create:field:relationship --status=closed --status=open "Your Field Name" your_field_name 1
 ```
 
 Create a Relationships field with multiple selection
 
 ```
-eecli create:field:relationship --multiple "Your Field Name" your_field_name 1
+$ eecli create:field:relationship --multiple "Your Field Name" your_field_name 1
 ```

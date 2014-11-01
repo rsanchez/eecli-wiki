@@ -1,7 +1,7 @@
 Clears the CE Cache.
 
 ```
-eecli cache:clear:ce_cache <items>
+$ eecli cache:clear:ce_cache <items>
 ```
 
 ## Arguments
@@ -25,29 +25,29 @@ Which driver to clear.
 Clear all caches
 
 ```
-eecli cache:clear:ce_cache
+$ eecli cache:clear:ce_cache
 ```
 
 Clear a specific item
 
 ```
-eecli cache:clear:ce_cache local/foo/item
+$ eecli cache:clear:ce_cache local/foo/item
 ```
 
 Clear specific items
 
 ```
-eecli cache:clear:ce_cache local/foo/item local/bar/item
+$ eecli cache:clear:ce_cache local/foo/item local/bar/item
 ```
 
 Clear specific tags
 
 ```
-eecli cache:clear:ce_cache --tags foo bar
+$ eecli cache:clear:ce_cache --tags foo bar
 ```
 
 Clear specific driver
 
 ```
-eecli cache:clear:ce_cache --driver="file"
+$ eecli cache:clear:ce_cache --driver="file"
 ```

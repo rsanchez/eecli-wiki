@@ -1,7 +1,7 @@
 Show config items.
 
 ```
-eecli show:config <key>
+$ eecli show:config <key>
 ```
 
 ## Arguments
@@ -15,11 +15,11 @@ Optional. Which config item do you want to show? (Leave blank to show all)
 Show all config items
 
 ```
-eecli show:config
+$ eecli show:config
 ```
 
 Show the specified config item
 
 ```
-eecli show:config site_label
+$ eecli show:config site_label
 ```

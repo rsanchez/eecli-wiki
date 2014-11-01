@@ -1,7 +1,7 @@
 Create a Radio Buttons field.
 
 ```
-eecli create:field:radio <label> <short_name> <group_id>
+$ eecli create:field:radio <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -61,11 +61,11 @@ Pre-populate the dropdown with values from this channel field ID.
 Create a Radio field in field group 1
 
 ```
-eecli create:field:radio "Your Field Name" your_field_name 1
+$ eecli create:field:radio "Your Field Name" your_field_name 1
 ```
 
 Create a Radio field with multiple options
 
 ```
-eecli create:field:radio --option="Foo" --option="Bar" "Name" name 1
+$ eecli create:field:radio --option="Foo" --option="Bar" "Name" name 1
 ```

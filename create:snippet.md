@@ -1,7 +1,7 @@
 Create a new snippet. When you have [Sync Snippets](https://github.com/rsanchez/sync_snippets) installed and configured, this command will write a snippet file as well.
 
 ```
-eecli create:snippet <name> <contents>
+$ eecli create:snippet <name> <contents>
 ```
 
 ## Arguments
@@ -29,23 +29,23 @@ Use stdin as snippet contents.
 Create a blank snippet
 
 ```
-eecli create:snippet your_snippet_name
+$ eecli create:snippet your_snippet_name
 ```
 
 Create a snippet with content
 
 ```
-eecli create:snippet your_snippet_name "your snippet content"
+$ eecli create:snippet your_snippet_name "your snippet content"
 ```
 
 Pipe in content
 
 ```
-eecli create:snippet --stdin your_snippet_name
+$ eecli create:snippet --stdin your_snippet_name
 ```
 
 Create a snippet accessible to all sites
 
 ```
-eecli create:snippet --global your_snippet_name
+$ eecli create:snippet --global your_snippet_name
 ```

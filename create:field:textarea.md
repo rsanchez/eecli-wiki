@@ -1,7 +1,7 @@
 Create a Textarea field.
 
 ```
-eecli create:field:textarea <label> <short_name> <group_id>
+$ eecli create:field:textarea <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -77,53 +77,53 @@ Show file selector?
 Create a Textarea field in field group 1
 
 ```
-eecli create:field:textarea "Your Field Name" your_field_name 1
+$ eecli create:field:textarea "Your Field Name" your_field_name 1
 ```
 
 Create a Textarea field with 10 rows
 
 ```
-eecli create:field:textarea --rows=10 "Name" name 1
+$ eecli create:field:textarea --rows=10 "Name" name 1
 ```
 
 Create a Textarea field with format xhtml (none, br, or xhtml)
 
 ```
-eecli create:field:textarea --format=xhtml "Name" name 1
+$ eecli create:field:textarea --format=xhtml "Name" name 1
 ```
 
 Create a Textarea field with format selectable on the publish page
 
 ```
-eecli create:field:textarea --show_format "Name" name 1
+$ eecli create:field:textarea --show_format "Name" name 1
 ```
 
 Create a Textarea field with RTL text direction
 
 ```
-eecli create:field:textarea --text_direction=rtl "Name" name 1
+$ eecli create:field:textarea --text_direction=rtl "Name" name 1
 ```
 
 Create a Textarea field with the smileys button
 
 ```
-eecli create:field:textarea --show_smileys "Name" name 1
+$ eecli create:field:textarea --show_smileys "Name" name 1
 ```
 
 Create a Textarea field with the glossary button
 
 ```
-eecli create:field:textarea --show_glossary "Name" name 1
+$ eecli create:field:textarea --show_glossary "Name" name 1
 ```
 
 Create a Textarea field with the spellcheck button
 
 ```
-eecli create:field:textarea --show_spellcheck "Name" name 1
+$ eecli create:field:textarea --show_spellcheck "Name" name 1
 ```
 
 Create a Textarea field with the file selector button
 
 ```
-eecli create:field:textarea --show_file_selector "Name" name 1
+$ eecli create:field:textarea --show_file_selector "Name" name 1
 ```

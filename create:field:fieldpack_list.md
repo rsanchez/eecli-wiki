@@ -1,7 +1,7 @@
 Create a Fieldpack List field.
 
 ```
-eecli create:field:fieldpack_list <label> <short_name> <group_id>
+$ eecli create:field:fieldpack_list <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -45,5 +45,5 @@ Set this field's order.
 Create a Fieldpack List field in field group 1
 
 ```
-eecli create:field:fieldpack_list "Your Field Name" your_field_name 1
+$ eecli create:field:fieldpack_list "Your Field Name" your_field_name 1
 ```

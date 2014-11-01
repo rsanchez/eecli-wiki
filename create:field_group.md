@@ -1,7 +1,7 @@
 Create a field group.
 
 ```
-eecli create:field_group <name>
+$ eecli create:field_group <name>
 ```
 
 ## Arguments
@@ -15,5 +15,5 @@ The name of the field group.
 Create a field group
 
 ```
-eecli create:field_group Blog
+$ eecli create:field_group Blog
 ```

@@ -1,7 +1,7 @@
 Create a Fieldpack Checkboxes field.
 
 ```
-eecli create:field:fieldpack_checkboxes <label> <short_name> <group_id>
+$ eecli create:field:fieldpack_checkboxes <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -49,11 +49,11 @@ One or more options. --option="Option Label" --option="option_value : Option Lab
 Create a Fieldpack Checkboxes field in field group 1
 
 ```
-eecli create:field:fieldpack_checkboxes "Your Field Name" your_field_name 1
+$ eecli create:field:fieldpack_checkboxes "Your Field Name" your_field_name 1
 ```
 
 Create a Fieldpack Checkboxes field with multiple options
 
 ```
-eecli create:field:fieldpack_checkboxes --option="foo : Foo" --option="bar : Bar" "Name" name 1
+$ eecli create:field:fieldpack_checkboxes --option="foo : Foo" --option="bar : Bar" "Name" name 1
 ```

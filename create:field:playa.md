@@ -1,7 +1,7 @@
 Create a Playa field.
 
 ```
-eecli create:field:playa <label> <short_name> <group_id>
+$ eecli create:field:playa <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -97,23 +97,23 @@ Allow multiple relationships?
 Create a Playa field in field group 1
 
 ```
-eecli create:field:playa "Your Field Name" your_field_name 1
+$ eecli create:field:playa "Your Field Name" your_field_name 1
 ```
 
 Create a Playa field with multiple channels
 
 ```
-eecli create:field:playa --channel=1 --channel=2 "Your Field Name" your_field_name 1
+$ eecli create:field:playa --channel=1 --channel=2 "Your Field Name" your_field_name 1
 ```
 
 Create a Playa field with multiple statuses
 
 ```
-eecli create:field:playa --status=closed --status=open "Your Field Name" your_field_name 1
+$ eecli create:field:playa --status=closed --status=open "Your Field Name" your_field_name 1
 ```
 
 Create a Playa field with multiple selection
 
 ```
-eecli create:field:playa --multiple "Your Field Name" your_field_name 1
+$ eecli create:field:playa --multiple "Your Field Name" your_field_name 1
 ```

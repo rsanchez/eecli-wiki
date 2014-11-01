@@ -1,7 +1,7 @@
 Create an Entry Type field.
 
 ```
-eecli create:field:entry_type <label> <short_name> <group_id>
+$ eecli create:field:entry_type <label> <short_name> <group_id>
 ```
 
 ## Arguments

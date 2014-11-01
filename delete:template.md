@@ -1,7 +1,7 @@
 Delete one or more templates. You will be asked to confirm that you want to delete the specified templates(s), unless you use the `--force` option.
 
 ```
-eecli delete:template <template>
+$ eecli delete:template <template>
 ```
 
 ## Arguments
@@ -21,17 +21,17 @@ Do not ask for confirmation before deleting.
 Delete a template
 
 ```
-eecli delete:template site/index
+$ eecli delete:template site/index
 ```
 
 Delete multiple templates
 
 ```
-eecli delete:template site/index site/foo
+$ eecli delete:template site/index site/foo
 ```
 
 Delete a template without confirmation
 
 ```
-eecli delete:template --force site/index
+$ eecli delete:template --force site/index
 ```

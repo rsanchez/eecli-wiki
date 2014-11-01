@@ -1,7 +1,7 @@
 Create a Multiselect field.
 
 ```
-eecli create:field:multi_select <label> <short_name> <group_id>
+$ eecli create:field:multi_select <label> <short_name> <group_id>
 ```
 
 ## Arguments
@@ -61,11 +61,11 @@ Pre-populate the dropdown with values from this channel field ID.
 Create a Multiselect field in field group 1
 
 ```
-eecli create:field:multi_select "Your Field Name" your_field_name 1
+$ eecli create:field:multi_select "Your Field Name" your_field_name 1
 ```
 
 Create a Multiselect field with multiple options
 
 ```
-eecli create:field:multi_select --option="Foo" --option="Bar" "Name" name 1
+$ eecli create:field:multi_select --option="Foo" --option="Bar" "Name" name 1
 ```

@@ -14,7 +14,7 @@ eecli install stash dev
 ```
 
 ```
-eecli install:addon <addon> <branch>
+$ eecli install:addon <addon> <branch>
 ```
 
 ## Arguments

@@ -3,7 +3,7 @@ Delete one or more global variables. You will be asked to confirm that you want 
 When you have [Sync Snippets](https://github.com/rsanchez/sync_snippets) installed and configured, this command will delete the global variable file as well.
 
 ```
-eecli delete:global_variable <name>
+$ eecli delete:global_variable <name>
 ```
 
 ## Arguments
@@ -23,17 +23,17 @@ Do not ask for confirmation before deleting.
 Delete a global variable
 
 ```
-eecli delete:global_variable your_global_variable_name
+$ eecli delete:global_variable your_global_variable_name
 ```
 
 Delete multiple global variables
 
 ```
-eecli delete:global_variable your_global_variable_name your_other_global_variable_name
+$ eecli delete:global_variable your_global_variable_name your_other_global_variable_name
 ```
 
 Delete a global variable without confirmation
 
 ```
-eecli delete:global_variable --force your_global_variable_name
+$ eecli delete:global_variable --force your_global_variable_name
 ```

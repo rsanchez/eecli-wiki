@@ -1,7 +1,7 @@
 Create a Checkboxes field.
 
 ```
-eecli create:field:checkboxes <label> <short_name> <group_id>
+$ eecli create:field:checkboxes <label> <short_name> <group_id>
 ```
 
 ## Arguments
