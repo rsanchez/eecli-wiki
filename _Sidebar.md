@@ -1,24 +1,35 @@
-### Getting Started
+## Getting Started
 
 * [[Installation]]
+  * [[Global Installation|Installation]]
+  * [[Local Installation|Installation#local-installation]]
+  * [[Updating|Installation#updating]]
+  * [[Using MAMP?|Installation#using-mamp]]
 * [[Configuration]]
 * [[Global Options]]
 
-### Command Reference
+## Advanced Topics
 
-#### Basic
+* [[Troubleshooting]]
+* [[Custom Commands]]
+* [[Third Party Commands]]
+* [[Zsh Autocompletion]]
+
+## Command Reference
+
+### Basic
 
 * [[help]]
 * [[init]]
 * [[list]]
 * [[repl]]
 
-#### Cache
+### Cache
 * [[cache:clear:ce_cache]]
 * [[cache:clear:ee]]
 * [[cache:clear:stash]]
 
-#### Create
+### Create
 * [[create:category]]
 * [[create:category_group]]
 * [[create:channel]]
@@ -55,41 +66,33 @@
 * [[create:template]]
 * [[create:template_group]]
 
-#### DB
+### DB
 * [[db:dump]]
 
-#### Delete
+### Delete
 * [[delete:entry]]
 * [[delete:global_variable]]
 * [[delete:snippet]]
 * [[delete:template]]
 * [[delete:template_group]]
 
-#### Generate
+### Generate
 * [[generate:addon]]
 * [[generate:command]]
 * [[generate:htaccess]]
 
-#### Install
+### Install
 * [[install:addon]]
 
-#### Show
+### Show
 * [[show:config]]
 * [[show:templates]]
 
-#### Sync
+### Sync
 * [[sync:global_variables]]
 * [[sync:snippets]]
 * [[sync:specialty_templates]]
 * [[sync:templates]]
 
-#### Update
+### Update
 * [[update:addons]]
-
-### Advanced Topics
-
-* [[Troubleshooting]]
-* [[Custom Commands]]
-* [[Third Party Commands]]
-* [[Zsh Autocompletion]]
-
