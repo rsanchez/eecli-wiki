@@ -22,7 +22,7 @@
 * [[help]]
 * [[init]]
 * [[list]]
-* [[repl]]
+* [[console]]
 
 ### Cache
 * [[cache:clear:ce_cache]]
