@@ -1,9 +1,9 @@
 ## Method \#1: Composer Global Installation
 
-The preferred installation method is to install globally with [Composer](https://getcomposer.org/). Refer the official composer documentation for more information on [installing Composer globally](https://getcomposer.org/doc/00-intro.md#globally).
+The preferred installation method is to install globally with [Composer](https://getcomposer.org/). Refer the official composer documentation for more information on [installing Composer globally](https://getcomposer.org/doc/00-intro.md#globally). Run this at the command line:
 
 ```
-composer global require eecli/eecli
+$ composer global require eecli/eecli
 ```
 
 Make sure your global Composer installation's bin folder is added to your PATH in your `~/.bash_profile` (or `~/.profile` or `~/.bashrc` or `~/.zshrc`) so that you may run the binary `eecli` from the command line:
@@ -36,10 +36,10 @@ $ brew upgrade eecli
 
 ## Method \#3 Composer Local Installation
 
-You can also install `eecli` locally. You may want to do this on a remote server, for instance.
+You can also install `eecli` locally. You may want to do this on a remote server, for instance. Run this at the command line:
 
 ```
-composer require eecli/eecli
+$ composer require eecli/eecli
 ```
 
 Then the command would be found in your `vendor/bin` folder, so you'd run this at your command line:
