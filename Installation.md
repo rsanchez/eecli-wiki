@@ -1,7 +1,9 @@
-Installation is done with [Composer](https://getcomposer.org/). Refer the official composer documentation for more information on [installing Composer globally](https://getcomposer.org/doc/00-intro.md#globally)
+## Method \#1: Composer Global Installation
+
+The preferred installation method is to install globally with [Composer](https://getcomposer.org/). Refer the official composer documentation for more information on [installing Composer globally](https://getcomposer.org/doc/00-intro.md#globally).
 
 ```
-composer global require eecli/eecli dev-master
+composer global require eecli/eecli
 ```
 
 Make sure your global Composer installation's bin folder is added to your PATH in your `~/.bash_profile` (or `~/.profile` or `~/.bashrc` or `~/.zshrc`) so that you may run the binary `eecli` from the command line:
@@ -10,12 +12,34 @@ Make sure your global Composer installation's bin folder is added to your PATH i
 export PATH=~/.composer/vendor/bin:$PATH
 ```
 
-## Local Installation
+To update when you have used this installation method:
+
+```
+$ composer global update eecli/eecli
+```
+
+## Method \#2: Homebrew Installation
+
+If you are on a Mac and have [Homebrew](http://brew.sh/) installed, you can install using the following commands:
+
+```
+$ brew tap rsanchez/eecli
+$ brew install eecli
+```
+
+To update when you have used this installation method:
+
+```
+$ brew update
+$ brew upgrade eecli
+```
+
+## Method \#3 Composer Local Installation
 
 You can also install `eecli` locally. You may want to do this on a remote server, for instance.
 
 ```
-composer require eecli/eecli dev-master
+composer require eecli/eecli
 ```
 
 Then the command would be found in your `vendor/bin` folder, so you'd run this at your command line:
@@ -24,11 +48,21 @@ Then the command would be found in your `vendor/bin` folder, so you'd run this a
 vendor/bin/eecli <command>
 ```
 
-## Updating
+To update when you have used this installation method:
 
 ```
-$ composer global update eecli/eecli
+$ composer update eecli/eecli
 ```
+
+## Method \#4 Phar Installation
+
+You can download the [phar](https://github.com/rsanchez/eecli/releases/latest) executable yourself:
+
+```
+$ php eecli.phar <command>
+```
+
+To update, simply download the latest version of the phar.
 
 ## Using MAMP?
 
@@ -58,3 +92,5 @@ After saving, you should now see the MAMP's MySQL socket path in your configurat
 ```
 $ php -i | grep default_socket
 ```
+
+The [Drush](https://github.com/drush-ops/drush#additional-configurations-for-mamp) documentation contains alternative methods for getting CLI PHP working with MAMP.
