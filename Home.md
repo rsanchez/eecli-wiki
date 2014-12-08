@@ -6,24 +6,6 @@
 * build your own custom CLI commands, like import scripts or cron jobs
 * debug using an interactive shell
 
-```
-$ eecli clear:cache:ee
-
-  EE cache cleared.
-
-$ eecli create:template site/about
-
-  Template site/about created.
-
-$ eecli generate:addon
-
-  Addon your_addon_name created.
-
-$ eecli db:dump
-
-  your_site-201401011200.sql created.
-
-$ eecli your_custom_command
-```
+![Screencast of a few example commands](https://github.com/rsanchez/eecli/wiki/images/home.gif)
 
 To learn more, please see the categories to the right.
