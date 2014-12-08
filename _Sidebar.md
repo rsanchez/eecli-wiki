@@ -2,7 +2,7 @@
 
 * [[Installation]]
   * [[Global Installation|Installation#method-1-composer-global-installation]]
-  * [[Homebrew Installation|Installation#l#method-2-homebrew-installation]]
+  * [[Homebrew Installation|Installation#method-2-homebrew-installation]]
   * [[Local Installation|Installation#method-3-composer-local-installation]]
   * [[Phar Installation|Installation#method-4-phar-installation]]
   * [[Using MAMP?|Installation#using-mamp]]
