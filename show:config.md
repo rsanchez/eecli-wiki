@@ -1,4 +1,6 @@
-Show config items.
+Display a list of EE config items.
+
+![Screenshot of show:config command](https://github.com/rsanchez/eecli/wiki/images/show:config.png)
 
 ```
 $ eecli show:config <key>
