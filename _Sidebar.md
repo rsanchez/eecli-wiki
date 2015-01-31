@@ -86,6 +86,7 @@
 * [[install:addon]]
 
 ### Show
+* [[show:actions]]
 * [[show:config]]
 * [[show:templates]]
 
