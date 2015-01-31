@@ -88,6 +88,7 @@
 ### Show
 * [[show:actions]]
 * [[show:config]]
+* [[show:fields]]
 * [[show:templates]]
 
 ### Sync
