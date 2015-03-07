@@ -42,7 +42,7 @@ Set this field's order.
 
 ### `--channel="1"`
 
-ID of channel(s) to relate (Leave blank to allow all).
+ID or name of channel(s) to relate (Leave blank to allow all).
 
 ### `--expired`
 
@@ -95,7 +95,7 @@ $ eecli create:field:relationship "Your Field Name" your_field_name 1
 Create a Relationships field with multiple channels
 
 ```
-$ eecli create:field:relationship --channel=1 --channel=2 "Your Field Name" your_field_name 1
+$ eecli create:field:relationship --channel=1 --channel=blogs "Your Field Name" your_field_name 1
 ```
 
 Create a Relationships field with multiple statuses

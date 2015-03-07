@@ -26,7 +26,7 @@ Which status group (ID or name) do you want to assign this channel to?
 
 ### `--cat_group="1,2"`
 
-Which category group(s) (ID or name) do you want to assign this channel to? Separate multiple with comma.
+Which category group(s) (ID or name) do you want to assign this channel to?
 
 ### `--channel_url="/blog"`
 

@@ -46,7 +46,7 @@ ID of site(s) to relate (Leave blank to allow all).
 
 ### `--channel="1"`
 
-ID of channel(s) to relate (Leave blank to allow all).
+ID or name of channel(s) to relate (Leave blank to allow all).
 
 ### `--expired`
 
@@ -103,7 +103,7 @@ $ eecli create:field:playa "Your Field Name" your_field_name 1
 Create a Playa field with multiple channels
 
 ```
-$ eecli create:field:playa --channel=1 --channel=2 "Your Field Name" your_field_name 1
+$ eecli create:field:playa --channel=1 --channel=blog "Your Field Name" your_field_name 1
 ```
 
 Create a Playa field with multiple statuses
