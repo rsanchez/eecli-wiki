@@ -1,4 +1,4 @@
-Show a list of templates.
+Display a list of templates.
 
 ```
 $ eecli show:templates

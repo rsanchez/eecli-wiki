@@ -1,7 +1,7 @@
 Create a category.
 
 ```
-$ eecli create:category <name> <category_group>
+$ eecli create:category <name> <cat_group>
 ```
 
 ## Arguments
@@ -10,7 +10,7 @@ $ eecli create:category <name> <category_group>
 
 The category name.
 
-### `category_group`
+### `cat_group`
 
 The category group ID or name.
 

@@ -32,6 +32,10 @@ Cache for X seconds.
 
 Protect javascript.
 
+### `--notes`
+
+Template Notes.
+
 ### `--type="webpage"`
 
 Type. Default: webpage.

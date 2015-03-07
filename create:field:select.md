@@ -1,7 +1,7 @@
 Create a Select Dropdown field.
 
 ```
-$ eecli create:field:select <label> <short_name> <group_id>
+$ eecli create:field:select <label> <short_name> <field_group>
 ```
 
 ## Arguments
@@ -14,9 +14,9 @@ The label of the field.
 
 The short name of the field.
 
-### `group_id`
+### `field_group`
 
-The ID of the field group.
+The ID or name of the field group.
 
 ## Options
 
