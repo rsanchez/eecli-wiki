@@ -97,7 +97,7 @@ $ eecli create:channel --cat_group=5 --cat_group=6 test_channel
 Create a channel with category group "Apparel" and "Accessories"
 
 ```
-$ eecli create:channel --cat_group="Apparel,Accessories" test_channel
+$ eecli create:channel --cat_group="Apparel" --cat_group="Accessories" test_channel
 ```
 
 Create a channel with new field group with same title as channel
