@@ -18,7 +18,7 @@ Whether to delete by tag.
 
 ### `--driver="file"`
 
-Which driver to clear.
+Which driver to clear. You may use this option more than once to provide multiple values.
 
 ## Examples
 

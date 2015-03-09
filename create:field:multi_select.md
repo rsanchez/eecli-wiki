@@ -50,7 +50,7 @@ Show formatting dropdown on publish page.
 
 ### `--option="Foo"`
 
-One or more options.
+One or more options. You may use this option more than once to provide multiple values.
 
 ### `--pre_populate="1"`
 

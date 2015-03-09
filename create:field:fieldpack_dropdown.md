@@ -42,7 +42,7 @@ Set this field's order.
 
 ### `--option="option_value : Option Label"`
 
-One or more options. --option="Option Label" --option="option_value : Option Label".
+One or more options. --option="Option Label" --option="option_value : Option Label". You may use this option more than once to provide multiple values.
 
 ## Examples
 

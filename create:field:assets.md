@@ -42,7 +42,7 @@ Set this field's order.
 
 ### `--upload_dir="1"`
 
-ID of upload dir (Leave blank for all).
+ID of upload dir (Leave blank for all). You may use this option more than once to provide multiple values.
 
 ### `--view="thumbs"`
 

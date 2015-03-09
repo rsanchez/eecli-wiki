@@ -24,9 +24,9 @@ Which field group (ID or name) do you want to assign this channel to?
 
 Which status group (ID or name) do you want to assign this channel to?
 
-### `--cat_group="1,2"`
+### `--cat_group="1"`
 
-Which category group(s) (ID or name) do you want to assign this channel to?
+Which category group(s) (ID or name) do you want to assign this channel to? You may use this option more than once to provide multiple values.
 
 ### `--channel_url="/blog"`
 
@@ -91,7 +91,7 @@ $ eecli create:channel --status_group="Statuses" test_channel
 Create a channel with category group 5 and 6
 
 ```
-$ eecli create:channel --cat_group="5,6" test_channel
+$ eecli create:channel --cat_group=5 --cat_group=6 test_channel
 ```
 
 Create a channel with category group "Apparel" and "Accessories"

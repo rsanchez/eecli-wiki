@@ -42,7 +42,7 @@ Set this field's order.
 
 ### `--channel="1"`
 
-ID or name of channel(s) to relate (Leave blank to allow all).
+ID or name of channel(s) to relate (Leave blank to allow all). You may use this option more than once to provide multiple values.
 
 ### `--expired`
 
@@ -54,19 +54,19 @@ Show future entries.
 
 ### `--category="1"`
 
-ID of category(s) to show (Leave blank to allow all).
+ID of category(s) to show (Leave blank to allow all). You may use this option more than once to provide multiple values.
 
 ### `--author="1"`
 
-ID of author(s) to show (Leave blank to allow all).
+ID of author(s) to show (Leave blank to allow all). You may use this option more than once to provide multiple values.
 
 ### `--member_group="1"`
 
-ID of authored by member group(s) to show (Leave blank to allow all).
+ID of authored by member group(s) to show (Leave blank to allow all). You may use this option more than once to provide multiple values.
 
 ### `--status="open"`
 
-Stasus(es) to show (Leave blank to allow all).
+Stasus(es) to show (Leave blank to allow all). You may use this option more than once to provide multiple values.
 
 ### `--limit="100"`
 
