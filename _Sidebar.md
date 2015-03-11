@@ -54,6 +54,7 @@
   * [[relationship|create:field:relationship]]
   * [[rte|create:field:rte]]
   * [[select|create:field:select]]
+  * [[store|create:field:store]]
   * [[text|create:field:text]]
   * [[textarea|create:field:textarea]]
   * [[wygwam|create:field:wygwam]]
@@ -66,6 +67,7 @@
 * [[create:status_group]]
 * [[create:template]]
 * [[create:template_group]]
+* [[create:upload_pref]]
 
 ### DB
 * [[db:dump]]

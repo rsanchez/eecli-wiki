@@ -8,12 +8,12 @@ $ eecli show:fields
 
 ### `--group_id=""`
 
-Limit results to the specified field group id.
+Limit results to the specified field group id. You may use this option more than once to provide multiple values.
 
 ### `--channel=""`
 
-Limit results to the specified channel short name.
+Limit results to the specified channel short name. You may use this option more than once to provide multiple values.
 
 ### `--type=""`
 
-Limit results to the specified fieldtype.
+Limit results to the specified fieldtype. You may use this option more than once to provide multiple values.

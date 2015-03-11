@@ -14,12 +14,12 @@ Optional. Display a specific action
 
 ### `--module=""`
 
-Limit results to the specified module.
+Limit results to the specified module. You may use this option more than once to provide multiple values.
 
 ### `--class=""`
 
-Limit results to the specified module class.
+Limit results to the specified module class. You may use this option more than once to provide multiple values.
 
 ### `--method=""`
 
-Limit results to the specified method.
+Limit results to the specified method. You may use this option more than once to provide multiple values.
