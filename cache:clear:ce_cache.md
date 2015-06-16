@@ -1,5 +1,7 @@
 Clears the CE Cache.
 
+Be sure to set your [`http_host`](Global Options) when using the `refresh` option, so `eecli` will know your site's URL.
+
 ```
 $ eecli cache:clear:ce_cache <items>
 ```
@@ -19,6 +21,14 @@ Whether to delete by tag.
 ### `--driver="file"`
 
 Which driver to clear. You may use this option more than once to provide multiple values.
+
+### `--refresh`
+
+Whether to refresh cache after clearing.
+
+### `--refresh_time=""`
+
+Number of seconds to wait between refreshing and deleting items.
 
 ## Examples
 
@@ -50,4 +60,16 @@ Clear specific driver
 
 ```
 $ eecli cache:clear:ce_cache --driver="file"
+```
+
+Set cache to refresh after clear
+
+```
+$ eecli cache:clear:ce_cache --refresh
+```
+
+Set the number of seconds to wait before refreshing and deleting items
+
+```
+$ eecli cache:clear:ce_cache --refresh-time="2"
 ```
