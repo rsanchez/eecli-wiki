@@ -89,7 +89,9 @@
 
 ### Show
 * [[show:actions]]
+* [[show:category_groups]]
 * [[show:config]]
+* [[show:field_groups]]
 * [[show:fields]]
 * [[show:templates]]
 
