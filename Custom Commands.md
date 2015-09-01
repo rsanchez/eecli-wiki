@@ -7,7 +7,7 @@ Custom commands are great for cron jobs and/or post-deployment tasks.
 0 0 * * * cd /var/www && vendor/bin/eecli import_conversion_rates --http_host="yoursite.com"
 ```
 
-Your custom command must extend `Illuminate\Console\Command`. You can generate a custom command file using the [[generate:command]] command.
+Your custom command must extend `eecli\Command\Command`. You can generate a custom command file using the [[generate:command]] command.
 
 Here is a simple example custom command (it is assumed your custom command classes are in your autoloader):
 
@@ -16,7 +16,7 @@ Here is a simple example custom command (it is assumed your custom command class
 
 namespace MyApp\Command;
 
-use Illuminate\Console\Command;
+use eecli\Command\Command;
 
 class RemoveBannedMembersCommand extends Command
 {
