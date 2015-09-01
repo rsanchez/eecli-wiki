@@ -93,7 +93,9 @@
 * [[show:config]]
 * [[show:field_groups]]
 * [[show:fields]]
+* [[show:members]]
 * [[show:templates]]
+* [[show:version]]
 
 ### Sync
 * [[sync:global_variables]]
